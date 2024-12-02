@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/*MENU*/
+ul li{
+    display: inline;
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+}
+ul{
+    text-align: right;
+}
+nav{
+    background-color: black;
+}
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline white;
+}
+a:visited{
+    color: white;
+}
+/*main*/
+main{
+    height: 300px;
+    text-align: center;
+}
+main p{
+    width: 200px;
+    margin: auto;
+}
+/*footer*/
+footer{
+    background-color: black;
+    height: 50px;
+
+}
+footer p{
+    color: white;
+    text-align: right;
+    padding: 15px;
+}
