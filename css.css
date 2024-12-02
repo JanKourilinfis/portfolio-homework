@@ -26,14 +26,43 @@ a:hover{
 a:visited{
     color: white;
 }
+/*header*/
+header{
+    display: flex;
+    gap: 200px;
+    justify-content: center;
+}
+img{
+    height: 300px;
+    width: 400px;
+}
 /*main*/
 main{
     height: 300px;
     text-align: center;
+    
 }
 main p{
     width: 200px;
     margin: auto;
+}
+div{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    color: white;
+    margin: auto;
+    
+}
+section{
+    display: flex;
+
+}
+baf{
+    margin-left: 500px;
+}
+buu{
+    margin-right: 500px;
 }
 /*footer*/
 footer{
