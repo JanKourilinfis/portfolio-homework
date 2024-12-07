@@ -28,9 +28,14 @@ a:visited{
 }
 /*header*/
 header{
+    background-color: #00cba9;
+    flex-direction: column;
+}
+header{
     display: flex;
     gap: 200px;
     justify-content: center;
+    align-items: center;
 }
 img{
     height: 300px;
@@ -52,17 +57,16 @@ div{
     background-color: black;
     color: white;
     margin: auto;
-    
 }
 section{
     display: flex;
 
 }
-baf{
-    margin-left: 500px;
+.baf{
+    margin-left: 750px;
 }
-buu{
-    margin-right: 500px;
+.buu{
+    margin-right: 750px;
 }
 /*footer*/
 footer{
