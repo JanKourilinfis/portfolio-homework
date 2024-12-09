@@ -39,15 +39,19 @@ header{
     align-items: center;
 }
 img{
-    height: 300px;
+    height: 200px;
+    width: 200px;
+}
+.psik{
     width: 400px;
+    height: 300px;
 }
 .nevim{
     font-family: 'Playwrite HR Lijeva';
 }
 /*main*/
 main{
-    height: 400px;
+    min-height: fit-content;
     text-align: center;
 }
 main p{
@@ -66,13 +70,18 @@ section{
 
 }
 .baf{
-    margin-left: 750px;
+    margin-left: 650px;
+    min-width: fit-content;
+    min-height: fit-content;
 }
 .buu{
-    margin-right: 750px;
+    margin-right: 650px;
+    min-width: fit-content;
+    min-height: fit-content;
 }
 .bozena{
     font-family: 'Playwrite HR Lijeva';
+    margin-top: 30px;
 }
 .text{
     font-family: 'Quicksand';
