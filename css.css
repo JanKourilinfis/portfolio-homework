@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+HR+Lijeva:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+HR+Lijeva:wght@100..400&family=Quicksand:wght@300..700&display=swap');
 *{
     margin: 0px;
     padding: 0px;
@@ -29,7 +31,6 @@ a:visited{
 /*header*/
 header{
     background-color: #00cba9;
-    flex-direction: column;
 }
 header{
     display: flex;
@@ -41,11 +42,13 @@ img{
     height: 300px;
     width: 400px;
 }
+.nevim{
+    font-family: 'Playwrite HR Lijeva';
+}
 /*main*/
 main{
-    height: 300px;
+    height: 400px;
     text-align: center;
-    
 }
 main p{
     width: 200px;
@@ -67,6 +70,12 @@ section{
 }
 .buu{
     margin-right: 750px;
+}
+.bozena{
+    font-family: 'Playwrite HR Lijeva';
+}
+.text{
+    font-family: 'Quicksand';
 }
 /*footer*/
 footer{
