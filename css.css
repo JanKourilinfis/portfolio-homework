@@ -1,37 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+HR+Lijeva:wght@100..400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+HR+Lijeva:wght@100..400&family=Quicksand:wght@300..700&display=swap');
-@media screen (min-width:800px) (max-width:1500px)
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
+:root{
+    --WHITECOLOR:white;
+    --BLACKCOLOR:black;
+    --TEALCOLOR:#00cba9;
+}
 /*MENU*/
 ul li{
     display: inline;
     font-size: 20px;
-    color: white;
+    color: var(--WHITECOLOR);
     padding: 10px;
 }
 ul{
     text-align: right;
 }
 nav{
-    background-color: black;
+    background-color: var(--BLACKCOLOR);
 }
 a{
     text-decoration: none;
 }
 
 a:hover{
-    text-decoration: underline white;
+    text-decoration: underline var(--WHITECOLOR);
 }
 a:visited{
-    color: white;
+    color: var(--WHITECOLOR);
 }
 /*header*/
 header{
-    background-color: #00cba9;
+    background-color: var(--TEALCOLOR);
 }
 header{
     display: flex;
@@ -62,7 +66,7 @@ main p{
 div{
     width: 100px;
     height: 100px;
-    background-color: black;
+    background-color: var(--BLACKCOLOR);
     color: white;
     margin: auto;
 }
@@ -89,7 +93,7 @@ section{
 }
 /*footer*/
 footer{
-    background-color: black;
+    background-color: var(--BLACKCOLOR);
     height: 50px;
 
 }
@@ -97,4 +101,26 @@ footer p{
     color: white;
     text-align: right;
     padding: 15px;
+}
+@media (max-width:1520px) {
+    .psik{
+        width: 40vw;
+        height: 30vw;
+        margin-top: 20vw;
+    }
+    .nevim{
+         font-size: 5vw;
+         margin-right: 10vw;
+    }
+    header{
+        gap: 30vw;
+    }
+    img{
+        height: 15vh;
+        width: 30vw;
+    }
+    .baf{
+        margin-left: 15vw;
+    }
+    
 }
